@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mi primera página web</title>
+  </head>
+  <body>
+    <header>
+      <h1>Bienvenidos a mi primera Página Web</h1>
+      <p>¡Explora y descubrí más sobre mí y mis intereses!</p>
+    </header>
+
+    <nav>
+      <a href="#">Inicio</a>
+      <a href="#sobre-mi">Sobre Mí</a>
+      <a href="#mis-intereses">Mis Intereses</a>
+      <a href="#contacto">Contactame</a>
+    </nav>
+
+    <div id="sobre-mi">
+      <h2>Sobre Mí</h2>
+      <p>
+        Soy Rocío, una entusiasta del desarrollo y diseño web. Desde que
+        descubrí el código, me emociona aprender y crear.
+      </p>
+      <ul>
+        <li>Tengo 23 años</li>
+        <li>Soy de la ciudad de Córdoba</li>
+        <li>Estudiante de Tecnicatura Superior en Desarrollo de Software</li>
+      </ul>
+      <img src="Imagen.jpg" alt="Foto personal, Rocío Llanes" width="500" />
+    </div>
+
+    <div id="mis-intereses">
+      <h2>Mis Intereses</h2>
+      <p>
+        Me apasiona el diseño de aplicaciones web y la programación. Siempre
+        estoy buscando nuevas formas de combinar la estética y la funcionalidad
+        en los pequeños proyectos que he creado.
+      </p>
+      <table>
+        <tr>
+          <th>Interés</th>
+          <th>Descripción</th>
+        </tr>
+        <tr>
+          <td>Diseño web</td>
+          <td>
+            Creación de bonitas aplicaciones web con diversas funcionalidades.
+          </td>
+        </tr>
+        <tr>
+          <td>Programación</td>
+          <td>Desarrollo de soluciones mediante programación FrontEnd.</td>
+        </tr>
+      </table>
+      <img
+        src="Programacion.jpg"
+        alt="Imagen de dos computadoras con editor de código html"
+      />
+    </div>
+
+    <div id="contacto">
+      <h2>Contáctame</h2>
+      <p>
+        Si queres saber más o colaborar en proyectos interesantes, no dudes en
+        contactarme! Podes encontrarme en
+        <a href="https://www.linkedin.com/in/rocio-llanes" target="_blank"
+          >mi LinkedIn</a
+        >
+        o llenando este formulario para contactarte conmigo:
+      </p>
+      <form action="" method="">
+        <label for="nombre">Nombre:</label>
+        <input type="text" id="nombre" name="nombre" value="Nombre" />
+        <label for="apellido">Apellido:</label>
+        <input type="text" id="apellido" name="apellido" value="Apellido" />
+        <label for="mail">Email:</label>
+        <input type="email" id="mail" name="email" value="Correo electronico" />
+        <input type="submit" value="Enviar" />
+      </form>
+    </div>
+
+    <footer>
+      <p>React learning camp | Rocío Llanes</p>
+    </footer>
+  </body>
+</html>
