@@ -7,10 +7,14 @@
   <body>
     <div>
       <h1>Bienvenidos a mi primera Página Web</h1>
-      <p>Explora y descubrí más sobre mí y mis intereses</p>
+      <p>
+        Explora y descubrí más <a href="#sobre-mi">sobre mí</a> y
+        <a href="#mis-intereses">mis intereses</a>! Tambien podés
+        <a href="#contacto">contactarme.</a>
+      </p>
     </div>
 
-    <div>
+    <div id="sobre-mi">
       <h2>Sobre Mí</h2>
       <p>
         Soy Rocío, una entusiasta del desarrollo y diseño web. Desde que
@@ -21,10 +25,10 @@
         <li>Soy de la ciudad de Córdoba</li>
         <li>Estudiante de Tecnicatura Superior en Desarrollo de Software</li>
       </ul>
-      <img src="Imagen.jpg" alt="Foto personal, Rocío Llanes" width="500">
+      <img src="Imagen.jpg" alt="Foto personal, Rocío Llanes" width="500" />
     </div>
 
-    <div>
+    <div id="mis-intereses">
       <h2>Mis Intereses</h2>
       <p>
         Me apasiona el diseño de aplicaciones web y la programación. Siempre
@@ -33,28 +37,34 @@
       </p>
       <table>
         <tr>
-            <th>Interés</th>
-            <th>Descripción</th>
+          <th>Interés</th>
+          <th>Descripción</th>
         </tr>
         <tr>
-            <td>Diseño web</td>
-            <td>Creación de bonitas aplicaciones web con diversas funcionalidades.</td>
+          <td>Diseño web</td>
+          <td>
+            Creación de bonitas aplicaciones web con diversas funcionalidades.
+          </td>
         </tr>
         <tr>
-            <td>Programación</td>
-            <td>Desarrollo de soluciones mediante programación FrontEnd.</td>
+          <td>Programación</td>
+          <td>Desarrollo de soluciones mediante programación FrontEnd.</td>
         </tr>
-    </table>
-      <img src="Programacion.jpg" alt="Imagen de dos computadoras con editor de código html">
+      </table>
+      <img
+        src="Programacion.jpg"
+        alt="Imagen de dos computadoras con editor de código html"
+      />
     </div>
 
-    <div>
+    <div id="contacto">
       <h2>Contactame</h2>
       <p>
         Si queres saber más o colaborar en proyectos interesantes, no dudes en
         contactarme! Podes encontrarme en
         <a href="https://www.linkedin.com/in/rocio-llanes" target="_blank"
-          >mi LinkedIn</a>
+          >mi LinkedIn</a
+        >
         o llenando este formulario para contactarte conmigo:
       </p>
       <form action="" method="">
@@ -63,8 +73,8 @@
         <label for="apellido">Apellido:</label>
         <input type="text" id="apellido" name="apellido" value="Apellido" />
         <label for="mail">Email:</label>
-        <input type="email" id="mail" name="email" value="Correo electronico"/>
-        <input type="submit" value="Enviar">
+        <input type="email" id="mail" name="email" value="Correo electronico" />
+        <input type="submit" value="Enviar" />
       </form>
     </div>
   </body>
